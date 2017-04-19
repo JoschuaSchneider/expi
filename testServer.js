@@ -1,8 +1,9 @@
+var express = require('express')
 var Expi = require('./lib')
 
 var { Module, Route, Method } = Expi
 
-var app = Expi()
+var app = Expi(express())
 
 var module1 = new Module({
 	path: '/',

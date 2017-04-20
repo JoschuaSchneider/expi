@@ -1,3 +1,4 @@
+![Expi Logo](https://image.ibb.co/gRq45k/expi_logo.png "Expi Logo")
 ## expi
 Modular, Minimalistic API Framework built with [express](https://www.npmjs.com/package/express).
 
@@ -20,6 +21,28 @@ $ node node_modules/expi/example/app.js
 ```bash
 $ cd node_modules/expi && npm run example
 ```
+
+## TODO
+  - Documentation for:
+    - Module
+    - Method
+    - Route
+    - Expi
+  - Linting
+  - Testing
+  - Add new features
+    - Dedicated session/authentication hook
+    - Custom response schema
+    - Extended response functionality
+    - Clusterization
+    - Extended versioning (Provide versioned modules under special routes for backward compatablility)
+    - New layer ontop of route parameters
+  - Expose all express functions without interfering with expi functionality
+  - Proper releases
+  - Build tasks
+  - Handling preRoutes middleware while still returning 404 on module path without a route specified
+  - Handle default errors, http codes, bad requests etc.
+
 
 # Documentation
   

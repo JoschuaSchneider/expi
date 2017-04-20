@@ -25,10 +25,11 @@ $ cd node_modules/expi && npm run example
   
   A small overview over the functionality expi provides
 
-## Expi.Method(options)
+## Expi.Module(options)
 Usage:
 ```javascript
-    new Method(options)
+    let Module = require('expi').Module
+    let module = new Module(options)
 ```
 ### Configuration:
  - `options` 

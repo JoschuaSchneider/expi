@@ -1,10 +1,11 @@
 {
   "name": "expi",
-  "version": "1.0.3",
-  "description": "Modular & Distributable express API Framework",
+  "version": "2.0.0",
+  "description": "Modular API framework built with express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node ./example/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,6 @@
     "api",
     "endpoint",
     "modular",
-    "scale",
-    "distributable",
     "expi",
     "express-api"
   ],
@@ -32,6 +31,6 @@
     "express": "^4.15.2",
     "invariant": "^2.2.2",
     "joi": "^10.4.1",
-    "merge-descriptors": "^1.0.1"
+    "lodash": "^4.17.4"
   }
 }

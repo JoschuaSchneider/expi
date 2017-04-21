@@ -1,6 +1,6 @@
 {
   "name": "expi",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Modular API framework built with express",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "expi",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "description": "Modular API framework built with express",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoschuaSchneider/expi.git"
+    "url": "git+https://github.com/snoutnet/expi.git"
   },
   "keywords": [
     "express",
@@ -20,7 +20,7 @@
     "expi",
     "express-api"
   ],
-  "author": "Joschua Schneider",
+  "author": "snoutnet GmbH",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JoschuaSchneider/expi/issues"
